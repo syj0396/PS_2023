@@ -12,3 +12,4 @@ while True:
         print("no")
     else:
         print("yes")
+# num[::-1] <- 입력 받은 수를 거꾸로 뒤집음.
