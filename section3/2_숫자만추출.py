@@ -7,8 +7,14 @@ for x in s:
         # - int로 변환 후 10 * cnt + num해서 만들고 뒤집을 것인가
         # - str을 뒤집고 10 * cnt + num
         num += x #1번 방법
+'''
+res = 0
+for x in s:
+    if x.isdecimal():
+        res = res * 10 + int(x)
+'''
 num = int(num)
-print(num)
+print(num) 
 
 numy = 2
 for i in range(2, num//2+1):
